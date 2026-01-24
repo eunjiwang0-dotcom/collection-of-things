@@ -1,0 +1,70 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+@font-face {
+  font-family: mycustomfont;
+  src: url(Pretendard-Light.otf);
+}
+
+body {
+    margin: 20px;
+    font-family: mycustomfont;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+summary{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+details {
+    display: block;
+    margin: auto;
+
+}
+
+p{
+    background-color: grey;
+    color: white;
+}
+
+.margin{
+    margin-left: 20px;
+}
+.underline{
+    text-decoration: underline;
+}
+.tilt{
+  display: inline-block;
+  transform: rotate(-10deg);
+}
+.tilt2{
+    display: inline-block;
+  transform: rotate(+10deg);
+}
+
+.big{
+    font-size: 100px;
+}
+.down {
+    display: inline-block;
+    transform: translateY(2px);
+  }
+a{
+    color: white;
+}
+
+img {
+    width: 150px;
+}
